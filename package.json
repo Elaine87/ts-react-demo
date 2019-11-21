@@ -10,6 +10,8 @@
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   },
@@ -18,7 +20,8 @@
     "@types/node": "^10.12.12",
     "@types/react": "^16.7.13",
     "@types/react-dom": "^16.0.11",
+    "gh-pages": "^2.1.1",
     "typescript": "^3.2.1"
   },
-"homepage":"https://elaine87.github.io/ts-react-demo"
+  "homepage": "https://elaine87.github.io/ts-react-demo"
 }
