@@ -20,5 +20,5 @@
     "@types/react-dom": "^16.0.11",
     "typescript": "^3.2.1"
   },
-"homepage":"git@github.com:Elaine87/ts-react-demo.git"
+"homepage":"https://github.com/Elaine87/ts-react-demo.git"
 }
