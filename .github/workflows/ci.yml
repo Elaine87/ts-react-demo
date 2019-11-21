@@ -12,6 +12,4 @@ jobs:
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.0.1
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_SCRIPT: npm install && npm run build
+
