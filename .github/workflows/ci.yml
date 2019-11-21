@@ -14,5 +14,4 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@3.0.1
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
         BUILD_SCRIPT: npm install && npm run build
