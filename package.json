@@ -19,5 +19,6 @@
     "@types/react": "^16.7.13",
     "@types/react-dom": "^16.0.11",
     "typescript": "^3.2.1"
-  }
+  },
+"homepage":"https://github.com/Elaine87/ts-react-demo.git"
 }
